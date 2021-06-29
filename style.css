@@ -1,0 +1,101 @@
+/*Aaron Pappoe*/
+
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* --------------------------------------------------------- index.html */
+
+
+/* NAV */
+nav {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  padding: 0 20px;
+}
+
+
+/* MAIN CONTENT */
+.content img {
+  width: 100%;
+}
+
+/* FOOTER */
+footer {
+  background: #eeeeee;
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+footer div{
+  padding: 0 10px;
+}
+
+
+/* --------------------------------------------------------- info.html */
+/* images */
+.info-image {
+  width: 350px;
+}
+
+.info-image img {
+  width: 100%;
+}
+
+/* info content */
+#info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* row text and images */
+.row {
+  width: 80%;
+  display: flex;
+  margin: 30px 0;
+}
+
+.underline-border {
+  height: 5px;
+  width: 200px;
+  background: #1a1a1a;
+  border-radius: 25px;
+}
+
+.info-text {
+  display: flex;
+  width: 90%;
+  margin: auto 0;
+}
+
+.row2 .info-text {
+  margin: auto 0 auto 15px;
+}
+
+/* image border */
+.row1 img, .row3 img {
+  box-shadow: 5px 5px 10px 5px #1a1a1a;
+}
+
+.row2 img{
+  box-shadow: -5px 5px 10px 5px #1a1a1a;
+}
